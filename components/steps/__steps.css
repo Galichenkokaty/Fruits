@@ -1,0 +1,77 @@
+.steps{
+    margin-top: 9.375rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__title{
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: -0.125rem;
+    max-width: 40rem;
+    text-align: center;
+    margin: auto;
+}
+
+.steps__sub-title{
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    /* letter-spacing: -0.01rem; */
+    max-width: 35rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 0.875rem;
+}
+
+.steps__items{
+    padding: 2.75rem 2rem 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.steps__item{
+    background-color: white;
+    border-radius: 1.25rem;
+    padding: 2.5rem 1.25rem;
+    color: black;
+    display: flex;
+    gap: 0.875rem;
+    flex: 1;
+    align-items: center;
+}
+
+.steps__item:nth-child(1) .steps__item-text{
+    padding-right: 1.5rem;
+}
+
+.steps__item:nth-child(1) .steps__item-number{
+    background-color: #AE1332;
+}
+
+.steps__item:nth-child(2) .steps__item-number{
+    background-color: #A1C864;
+}
+
+.steps__item:nth-child(3) .steps__item-number{
+    background-color: #F5CE13;
+}
+
+.steps__item-number{
+    color: white;
+    padding: 0.75rem 2rem;
+    text-wrap: nowrap;
+    border-radius: 12.5rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    height: fit-content;
+    font-weight: 400;
+}
+
+.steps__item-text{
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    letter-spacing: -0.05rem;
+}

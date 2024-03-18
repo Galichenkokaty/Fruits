@@ -2,11 +2,19 @@
     background-color: white;
     padding: 0 2rem;
     color: #AE1332;
+    height: 3.125rem;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.nav-wrap{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    height: 3.125rem;
 }
+
 .nav__items{
     display: flex;
     gap: 1.25rem;
